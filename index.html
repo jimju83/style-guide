@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design System</title>
+    <!-- Link Google Fonts: 
+        Josefin Sans for header, footer
+        Titillium Web for headings
+        Roboto Mono font for <p> tags, 
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+  
+<body>
+    <header class="header">
+        <h1>Web Design Style Guide</h1>
+    </header>
+    
+    <!--  Navbar  -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-btn"><a class="nav-link" href="#color-section">Colors</a></li>
+            <li class="nav-btn"><a class="nav-link" href="#font-section">Typography</a></li>
+            <li class="nav-btn"><a class="nav-link" href="#style-section">Styles</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container" id="color-section">
+            <h2>Colors</h2>
+            <div class="color-container">
+                <div class="color-panel" id="color_navy">
+                    <p class="color-name">Navy Blue</p>
+                    <p class="color-hex">#0F1626</p>
+                    <p class="color-rgb">rgb(15, 22, 38)</p>
+                </div>
+                <div class="color-panel" id="color_cream">
+                    <p class="color-name">Cream</p>
+                    <p class="color-hex">#AB987A</p>     
+                    <p class="color-rgb">rgb(171, 152, 122)</p>
+                </div>
+                <div class="color-panel" id="color_coral">
+                    <p class="color-name">Coral</p>
+                    <p class="color-hex">#FF5330</p>
+                    <p class="color-rgb">rgb(255, 83, 48)</p>
+                </div>
+                <div class="color-panel" id="color_eggshell">
+                    <p class="color-name">Eggshell</p>
+                    <p class="color-hex">#F5F5F5</p>
+                    <p class="color-rgb">rgb(245, 245, 245)</p>
+                </div>
+            </div>
+        </div>
+
+        <!--  Fonts  -->
+        <div class="container" id="font-section">
+            <h2>Fonts</h2>
+            <div class="font-container">
+                <div class="font-panel">
+                    <p class="font-name josefin-sans">Josefin Sans</p>
+                    <p class="regular josefin-sans">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold josefin-sans">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="font-panel">
+                    <p class="font-name tittilium-web">Tittilium Web</p>
+                    <p class="regular tittilium-web">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="italic tittilium-web">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold tittilium-web">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold-italic tittilium-web">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="font-panel">
+                    <p class="font-name roboto-mono">Roboto Mono</p>
+                    <p class="regular roboto-mono">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="italic roboto-mono">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold roboto-mono">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold-italic roboto-mono">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--  Styles  -->
+        <div class="container" id="style-section">
+                <h2>Styles</h2>
+                <div class="style-container">
+                    <div class="text-panel">
+                        <h1>H1: Main page heading</h1>
+                        <ul>
+                        <li>Font-weight: 700 (bold)</li>
+                        <li>Font-size: 26px</li>
+                        <li>Font-family: Josefin Sans</li>
+                        </ul>
+                    </div>
+                    <div class="text-panel">
+                        <h2>H2: Subheading</h2>
+                        <ul>
+                        <li>Font-weight: 700 (bold)</li>
+                        <li>Font-size: 18px</li>
+                        <li>Font-family: Tittilium Web</li>
+                        </ul>
+                    </div>
+                    <div class="text-panel">
+                        <h3>H3: Subheading</h3>
+                        <ul>
+                        <li>Font-weight: 700 (bold)</li>
+                        <li>Font-style: italic</li>
+                        <li>Font-size: 16px</li>
+                        <li>Font-family: Tittilium Web</li>
+                        </ul>
+                    </div>
+                    <div class="text-panel">
+                        <p>P: Paragraph text</p>
+                        <ul>
+                        <li>Font-weight: 400</li>
+                        <li>Font-size: 16px</li>
+                        <li>Font-family: Roboto Mono</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </main>
+</body>
+</html>
